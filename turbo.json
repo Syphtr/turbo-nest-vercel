@@ -1,9 +1,10 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalDependencies": ["**/.env.*local", "NEXT_PUBLIC_NESTJS_SERVER"],
+  "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["NEXT_PUBLIC_NESTJS_SERVER"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {
