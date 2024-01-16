@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('/api/data')
   getData() {
-    return { message: 'Data from the NestJS API endpoint' };
+    return { message: 'Data from the NestJS API endpoint!' };
   }
 }
