@@ -19,5 +19,5 @@
     "target": "ES2022",
     "strictPropertyInitialization": false
   },
-  "exclude": ["**/dist", "**/build", "node_modules"]
+  "exclude": ["node_modules", "dist", "build"]
 }
