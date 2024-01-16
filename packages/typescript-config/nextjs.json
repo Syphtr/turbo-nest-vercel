@@ -3,6 +3,7 @@
   "display": "Next.js",
   "extends": "./base.json",
   "compilerOptions": {
+    "types": ["node", "@types/node", "@prisma/client", ".prisma/client"],
     "plugins": [{ "name": "next" }],
     "experimentalDecorators": true,
     "module": "ESNext",
