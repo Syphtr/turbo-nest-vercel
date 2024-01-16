@@ -16,7 +16,7 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2022",
+    "target": "ES2018",
     "strictPropertyInitialization": false
   }
 }
