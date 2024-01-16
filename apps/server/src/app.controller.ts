@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('/api/data')
+  getData() {
+    return { message: 'Data from the NestJS API endpoint' };
+  }
 }
