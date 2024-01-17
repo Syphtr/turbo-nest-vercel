@@ -16,8 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "types": ["node", "@types/node", "@prisma/client"]
   },
+
+  "exclude": [".prisma/client/index.d.ts"],
+
   "paths": {
     "@prisma/*": [".prisma/*"]
   }
