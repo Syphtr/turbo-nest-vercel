@@ -14,10 +14,11 @@
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
     "noImplicitAny": false,
-    "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
   },
   "exclude": ["node_modules", "dist", "build"]
 }
