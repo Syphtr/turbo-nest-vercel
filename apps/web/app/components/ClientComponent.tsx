@@ -10,7 +10,7 @@ const ClientComponent = () => {
       try {
         // const response = await fetch("http://localhost:4001/api/data");
         const response = await fetch(
-          "https://turbo-nest-vercel-production.up.railway.app/api/data"
+          "https://recruit-tree-server-production.up.railway.app/"
         );
         const result = await response.json();
         setData(result);
